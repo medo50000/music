@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
   const kboosh = new Discord.Client();
-    const kbooshtoken = "MzI3NzM2NTMyOTMwOTIwNDUw.DGmnLA.QFbtYXPzTAvZsoFW70wNLyVm3lE"
+    const kbooshtoken = "NTA1NDcwMjMyNjA1NzUzMzQ0.DvhjeA.vdRd24Q2F-jUYpdvC06CJTO-xts"
       kboosh.on('ready', () => {
-        kboosh.user.setGame(`KBOOSH TEST Broadcast`,'https://www.twitch.tv/TEST-Broadcast');
+        kboosh.user.setGame(`Five Store`,'https://www.twitch.tv/TEST-Broadcast');
           console.log('Im Ready!');
   
         });
@@ -45,4 +45,4 @@ const Discord = require("discord.js");
                             }
                           }
 });
-kboosh.login(kbooshtoken);
+kboosh.login("NTA1NDcwMjMyNjA1NzUzMzQ0.DvhjeA.vdRd24Q2F-jUYpdvC06CJTO-xts");
